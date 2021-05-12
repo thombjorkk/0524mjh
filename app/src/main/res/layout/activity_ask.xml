@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".ChatActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <RadioGroup
+        android:id="@+id/rgroup"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <RadioButton
+            android:id="@+id/rbtn_postbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="택배"
+            android:layout_marginRight="10dp"></RadioButton>
+        <RadioButton
+            android:id="@+id/rbtn_taxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="택시"
+            android:layout_marginLeft="10dp"></RadioButton>
+    </RadioGroup>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/add_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="8"
+            android:hint="멘트를 입력하세요."></EditText>
+
+        <Button
+            android:id="@+id/btn_add_comment"
+            android:text="추가"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="2"
+            ></Button>
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        ></ExpandableListView>
+
+</LinearLayout>

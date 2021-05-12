@@ -14,10 +14,10 @@
         <activity android:name=".Search_test" />
         <activity android:name=".SearchAdapter" />
         <activity android:name=".FaqAdapter" />
+        <activity android:name=".AskActivity"/>
         <activity android:name=".Faq" />
         <activity android:name=".postbox" />
         <activity android:name=".taxi" />
-        <activity android:name=".ask" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

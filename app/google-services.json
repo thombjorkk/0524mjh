@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "425707624198",
+    "project_id": "project-1252226275473945869",
+    "storage_bucket": "project-1252226275473945869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425707624198:android:8eee4712771a58fb28f087",
+        "android_client_info": {
+          "package_name": "com.example.a2021_05_03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425707624198-q9dta87euv7j3cbp0nmomanisnad6l2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu4b98OhFeqj99n-tgq4wStC2LHW4pslA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425707624198-q9dta87euv7j3cbp0nmomanisnad6l2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425707624198:android:3e4773d1f9f82dba28f087",
+        "android_client_info": {
+          "package_name": "com.cookandroid.splash_pleazz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425707624198-q9dta87euv7j3cbp0nmomanisnad6l2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu4b98OhFeqj99n-tgq4wStC2LHW4pslA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425707624198-q9dta87euv7j3cbp0nmomanisnad6l2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

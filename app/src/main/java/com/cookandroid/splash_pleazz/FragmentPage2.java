@@ -50,7 +50,7 @@ public class FragmentPage2 extends Fragment implements View.OnClickListener{
                 break;
 
             case R.id.btn_ask:
-                intent = new Intent(getContext(), ask.class);
+                intent = new Intent(getContext(), AskActivity.class);
                 startActivity(intent);
                 break;
 
