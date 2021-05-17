@@ -89,7 +89,7 @@ public class StreamingActivity extends AppCompatActivity {
         Uri uri = Uri.parse(url);
         DownloadManager.Request request = new DownloadManager.Request(uri);
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        request.setDestinationInExternalFilesDir(context,destinationDirectory,fileName+fileExtension);
+        request.setDestinationInExternalFilesDir(context,destinationDirectory,fileName+'.'+fileExtension);
         downloadManager.enqueue(request);
     }
 }

@@ -45,7 +45,7 @@ public class FragmentPage2 extends Fragment implements View.OnClickListener{
                 break;
 
             case R.id.btn_taxi:
-                intent = new Intent(getContext(), taxi.class);
+                intent = new Intent(getContext(), AudioListActivity.class);
                 startActivity(intent);
                 break;
 
