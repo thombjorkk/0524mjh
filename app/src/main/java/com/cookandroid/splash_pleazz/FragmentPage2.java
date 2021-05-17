@@ -40,7 +40,7 @@ public class FragmentPage2 extends Fragment implements View.OnClickListener{
         switch (view.getId()){
 
             case R.id.btn_postbox:
-                Intent intent = new Intent(getContext(), postbox.class);
+                Intent intent = new Intent(getContext(), StreamingActivity.class);
                 startActivity(intent);
                 break;
 

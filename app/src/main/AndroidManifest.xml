@@ -30,6 +30,8 @@
         <activity android:name=".FragmentPage1" />
         <activity android:name=".FragmentPage2" />
         <activity android:name=".FragmentPage3" />
+        <activity android:name=".StreamingActivity" />
     </application>
+
 
 </manifest>
